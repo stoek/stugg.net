@@ -1,0 +1,29 @@
+img[alt="Stan"] {
+   width:200px;
+   float:right;
+   border-radius: 15%;
+}
+
+#aboutText{
+	display:inline-block;
+	width: 75%;
+}
+
+@media (max-width: 841px) {
+	img[alt="Stan"] {
+		float:unset !important;	
+		width:200px;
+		border-radius: 5%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#aboutText{
+		display:inline-block;
+		width: 90%;
+		margin:auto;
+		text-align:center;
+	}
+
+}
